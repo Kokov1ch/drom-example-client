@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Unit;
+namespace App\Tests\Unit;
 
-use kokov1ch\DromExampleClient\Dto\Comment;
-use kokov1ch\DromExampleClient\ExampleClient;
-use kokov1ch\DromExampleClient\Exception\ExampleClientException;
+use Kokov1ch\DromExampleClient\Dto\Comment;
+use Kokov1ch\DromExampleClient\ExampleClient;
+use Kokov1ch\DromExampleClient\Exception\ExampleClientException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\MockObject\Exception;
 use PHPUnit\Framework\TestCase;

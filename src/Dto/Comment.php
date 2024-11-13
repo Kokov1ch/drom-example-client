@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace kokov1ch\DromExampleClient\Dto;
+namespace Kokov1ch\DromExampleClient\Dto;
 
 final readonly class Comment
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace kokov1ch\DromExampleClient;
+namespace Kokov1ch\DromExampleClient;
 
-use kokov1ch\DromExampleClient\Dto\Comment;
-use kokov1ch\DromExampleClient\Exception\ExampleClientException;
+use Kokov1ch\DromExampleClient\Dto\Comment;
+use Kokov1ch\DromExampleClient\Exception\ExampleClientException;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\StreamFactoryInterface;

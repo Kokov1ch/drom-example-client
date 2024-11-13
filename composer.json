@@ -1,27 +1,35 @@
 {
-  "name": "kokov1ch/example-client",
-  "version": "1.0.0",
-  "minimum-stability": "stable",
-  "authors": [
-    {
-      "name": "kokov1ch"
-    }
-  ],
-  "require": {
-    "php": ">=8.3",
-    "psr/http-client": "^1.0",
-    "psr/http-factory": "^1.1"
-  },
-  "prefer-stable": true,
-  "autoload": {
-    "psr-4": {
-      "kokov1ch\\DromExampleClient\\": "src/"
-    }
-  },
-  "require-dev": {
+    "name": "kokov1ch/example-client",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "kokov1ch"
+      }
+    ],
+
+    "require": {
+      "php": ">=8.3",
+      "psr/http-client": "^1.0",
+      "psr/http-factory": "^1.1"
+    },
+
+    "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.64",
     "rector/rector": "^1.2",
     "phpunit/phpunit": "^11.4",
     "guzzlehttp/guzzle": "^7.9"
-  }
+    },
+
+    "prefer-stable": true,
+    "autoload": {
+      "psr-4": {
+        "Kokov1ch\\DromExampleClient\\": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "App\\Tests\\": "tests/"
+        }
+    }
 }
