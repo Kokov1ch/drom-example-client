@@ -1,0 +1,6 @@
+/.idea
+/docker-compose.override.yml
+vendor/
+
+/.phpunit.cache
+/.php-cs-fixer.cache

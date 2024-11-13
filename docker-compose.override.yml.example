@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  php:
+    volumes:
+      - './docker/php/conf.d/opcache.ini:/etc/php.d/opcache.ini'
+      - './docker/php/conf.d/opcache.ini:/etc/php.d/docker-php-ext-opcache.ini'
+      - './docker/php/conf.d/error_reporting.ini:/etc/php.d/error_reporting.ini'
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'

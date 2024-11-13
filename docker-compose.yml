@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  php:
+    build:
+      context: ./docker/php
+    environment:
+      PS1: "\\u:\\w$$ "
+      PHP_INI_SCAN_DIR: "/usr/local/etc/php/conf.d_ext:/usr/local/etc/php/conf.d"
+    volumes:
+      - ./docker/php/conf.d:/usr/local/etc/php/conf.d_ext
+      - ./:/var/www
