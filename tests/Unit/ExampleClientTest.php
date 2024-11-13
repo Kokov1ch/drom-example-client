@@ -254,7 +254,7 @@ final class ExampleClientTest extends TestCase
                 'body' => '[{"id": 1, "name": "User1"}]',
             ],
             'comments' => [],
-            'exception' => 'Comment data missing required fields',
+            'exception' => 'Comment data missing required fields: {"id":1,"name":"User1"}',
             'errorCode' => 422,
         ];
 

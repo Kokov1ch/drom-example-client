@@ -7,7 +7,7 @@
 
 #### 1. Разверните локальное окружение:
 ```bash
-make create
+make up
 ```
 
 #### 2. Запустите тесты:
@@ -108,7 +108,7 @@ use Kokov1ch\DromExampleClient\Exception\ExampleClientException;
 
 final readonly class CommentService
 {
-    public function __construct(private ExampleClient $client, )
+    public function __construct(private ExampleClient $client)
     {}
 
     /**
